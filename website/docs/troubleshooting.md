@@ -180,3 +180,8 @@ When executing TypeScript with `npx` or `yarn dlx`, the code resides within a te
 The contents of `node_modules` are ignored by default.  If execution fails, enable [`skipIgnore`](./options.md#skipignore).
 
 <!--See also: [npx and yarn dlx](./recipes/npx-and-yarn-dlx.md)-->
+
+## Missing console.log output
+
+
+If console.log output is missing, just include a tsconfig.json file in the directory you are running your script.
